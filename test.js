@@ -1,5 +1,6 @@
 var myChalk = require('chalk');
 var myKirbyDance = require('kirby-dance');
+var cows = require ('cows');
 
 console.log(myChalk.blue('Hello, World!'));
 
@@ -12,3 +13,9 @@ console.log(myChalk.red("All.done."));
 
 console.log(myChalk.magenta(myKirbyDance(4)));
 console.log(myChalk.magenta(myKirbyDance(-4)));
+
+
+for (var i = 10; i<=25 ; i+=1){
+
+console.log(cows()[i]);
+}
