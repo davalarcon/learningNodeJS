@@ -1,0 +1,9 @@
+# Ignore the node-modules folder in .git
+
+node_modules
+
+.DS_Store
+
+
+# To create your own .gitignore file run this in the terminal:
+# touch . gitignore
